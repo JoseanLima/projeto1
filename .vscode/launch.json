@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to teanr about possible attributes
+    // Haver to view descriptions of existing attibutes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=8303
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true
+        }
+    ]
+}
